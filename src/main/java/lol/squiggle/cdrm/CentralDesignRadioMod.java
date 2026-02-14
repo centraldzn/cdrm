@@ -1,5 +1,6 @@
 package lol.squiggle.cdrm;
 
+import lol.squiggle.cdrm.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -19,6 +20,6 @@ public class CentralDesignRadioMod implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
-		LOGGER.info("Hello Fabric world!");
+		ModItems.registerModItems();
 	}
 }
