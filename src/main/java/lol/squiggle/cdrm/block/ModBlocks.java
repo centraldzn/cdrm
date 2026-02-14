@@ -14,6 +14,8 @@ import net.minecraft.util.Identifier;
 public class ModBlocks {
     public static final Block TABLETOP_RADIO = registerBlock("tabletop_radio",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK))); // .create().x
+    public static final Block OAK_TABLETOP_RADIO = registerBlock("oak_tabletop_radio",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK))); // .create().x
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

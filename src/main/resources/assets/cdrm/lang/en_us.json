@@ -2,6 +2,7 @@
   "item.cdrm.handheld_radio": "Handheld Radio",
 
   "block.cdrm.tabletop_radio": "Tabletop Radio",
+  "block.cdrm.oak_tabletop_radio": "Oak Tabletop Radio",
 
   "itemgroup.radio": "Central Design Radio Mod"
 }

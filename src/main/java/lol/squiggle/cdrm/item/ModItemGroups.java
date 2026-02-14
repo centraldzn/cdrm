@@ -18,6 +18,7 @@ public class ModItemGroups {
                         entries.add(ModItems.HANDHELD_RADIO);
 
                         entries.add(ModBlocks.TABLETOP_RADIO);
+                        entries.add(ModBlocks.OAK_TABLETOP_RADIO);
                     }).build());
 
     public static void registerItemGroups() {
