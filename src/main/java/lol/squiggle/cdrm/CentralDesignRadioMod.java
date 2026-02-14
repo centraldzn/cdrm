@@ -1,5 +1,7 @@
 package lol.squiggle.cdrm;
 
+import lol.squiggle.cdrm.block.ModBlocks;
+import lol.squiggle.cdrm.item.ModItemGroups;
 import lol.squiggle.cdrm.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -20,6 +22,9 @@ public class CentralDesignRadioMod implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
+		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

@@ -12,9 +12,11 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
     public static final Item HANDHELD_RADIO = registerItem("handheld_radio", new Item(new FabricItemSettings()));
+//    public static final Item TABLETOP_RADIO = registerItem("tabletop_radio", new Item(new FabricItemSettings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(HANDHELD_RADIO);
+//        entries.add(TABLETOP_RADIO);
     }
 
     private static Item registerItem(String name, Item item) {

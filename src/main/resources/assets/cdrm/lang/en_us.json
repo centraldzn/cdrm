@@ -1,3 +1,7 @@
 {
-  "item.cdrm.handheld_radio": "Handheld Radio"
+  "item.cdrm.handheld_radio": "Handheld Radio",
+
+  "block.cdrm.tabletop_radio": "Tabletop Radio",
+
+  "itemgroup.radio": "Central Design Radio Mod"
 }
